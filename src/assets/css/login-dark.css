@@ -1,0 +1,146 @@
+/*
+contenedor de la pagina debes ponerlo responsive
+*/
+body{
+  background: #041448;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(4, 20, 72, 1), rgba(2, 84, 144, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(4, 20, 72, 1), rgba(2, 84, 144, 1));
+
+}
+.page-container{
+
+  height:720px;
+  background: #041448;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(4, 20, 72, 1), rgba(2, 84, 144, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(4, 20, 72, 1), rgba(2, 84, 144, 1));
+
+}
+
+/*
+contenedor del formulario e imagenes
+*/
+.login-dark {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  color: #fff;
+  z-index: 999;
+}
+
+.flag{
+width: 68%;
+  position:absolute;
+  opacity: 0.42;
+}
+.flag img{
+  width:100%;
+  max-width: 1900px;
+}
+
+.warning{
+  font-size: 9.8px;
+}
+.logo-minpre img{
+width: 252px;
+text-align: center;
+align-items: center;
+}
+.login-dark form {
+  max-width: 320px;
+  border-radius: 20px;
+  background-color: #ffffff17;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+
+  padding: 40px;
+  width: 90%;
+  border-radius: 4px;
+}
+.login-dark .form-title{
+  color:#fff;
+  text-align: center;
+  font-size: 16px;
+}
+.login-dark .illustration {
+
+  text-align: center;
+  padding: 15px 0 20px;
+  font-size: 100px;
+  color: #e9eaeb;
+}
+.login-dark .policia-logo {
+  width: 430px;
+  height:100px;
+
+
+ }
+ .policia-logo img{
+  width: 300px;
+ /* height:123px;*/
+
+
+ }
+ /*
+ formulario
+ */
+.login-dark form .form-control {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #adafb1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  margin-top:10px;
+}
+.login-dark input::placeholder{
+  color: ffffff;
+}
+.login-dark input::-moz-placeholder{
+  color: #ffffff;
+}
+.login-dark input::-webkit-input-placeholder{
+  color: #ffffff;
+}
+.login-dark form .btn-primary {
+  background: #3061a1;
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 26px;
+  text-shadow: none;
+  outline: none;
+}
+
+.login-dark form .btn-primary:hover, .login-dark form .btn-primary:active {
+  background: #214a80;
+  outline: none;
+}
+
+.login-dark form .forgot {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.login-dark form .forgot:hover, .login-dark form .forgot:active {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.login-dark form .btn-primary:active {
+  transform: translateY(1px);
+}
+
