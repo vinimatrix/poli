@@ -29,6 +29,7 @@
             ],
             "styles": [
               "src/styles.scss"
+
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pol"
+    }
+  },
+  "defaultProject": "pol",
+  "cli": {
+    "analytics": "a3cc68f8-92b6-4f29-a8a4-8891744090d4"
+  }
 }
